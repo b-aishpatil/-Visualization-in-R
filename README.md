@@ -25,10 +25,7 @@ cricket <- read.csv("C:/Users/User/Downloads/cs.csv")
 ```R
 View(cricket)
 ```
- ![image](https://user-images.githubusercontent.com/92450677/203500520-e40743c1-10a1-45aa-a400-4104644648fa.png)
-
-
-
+![image](https://user-images.githubusercontent.com/92450677/203500520-e40743c1-10a1-45aa-a400-4104644648fa.png)
 
 3.	To get data from head
 
@@ -92,33 +89,32 @@ tail(cricket,-7)
 </table>
 
 
-7. To summaries dataset 
+5. To summaries dataset 
 ```R
 summary(cricket)
 ```
 ![image](https://user-images.githubusercontent.com/92450677/203502539-15dc4e2f-8165-4912-90f3-6ee7e2d478bc.png)
 
-8. Creating pie-chart
+6. Creating pie-chart
 ```R
 pie(table(cricket$Country), main = "Pie Chart of the cricket data set of contries", col = c("orange","pink","red","blue","yellow","green","violet"), radius = 1)
 ```
 ![image](https://user-images.githubusercontent.com/92450677/203504766-10d56da1-2310-4a12-8d5c-2ae7c0eedb3f.png)
 
-9. Plotting Histogram
+7. Plotting Histogram
 ```R
 hist(cricket$Sixes, col=c("green", "red", "blue"), xlab="Number of Sixes", ylab= "Frequncy of Sixes", main="Histogram of Sixes")
 ```
 ![image](https://user-images.githubusercontent.com/92450677/203508360-b1e81092-8567-4deb-b0ac-a3cc35a9f1df.png)
 
-
-9. Plotting Scatterplot
+8. Plotting Scatterplot
 ```R
 plot(cricket$Fifties~cricket$Hundreds,xlab="Hundreds" ,ylab="Fifties", main="Scatterplot for Hundreds vs Fifties", col=c("blue", "red"),pch=16)
 ```
 ![image](https://user-images.githubusercontent.com/66154908/203515709-66390640-37a3-4261-8212-71ae62533007.png)
 
 
-10. Plotting Scatterplot with background theme and symbols
+9. Plotting Scatterplot with background theme and symbols
 ```R
 ggplot(data=cricket,aes(y=Fifties,x=Hundreds,col=Country))+geom_point()
 ```
