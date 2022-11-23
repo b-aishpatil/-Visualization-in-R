@@ -57,5 +57,14 @@ pie(table(cricket$Country), main = "Pie Chart of the cricket data set of contrie
 ```
 ![image](https://user-images.githubusercontent.com/92450677/203504766-10d56da1-2310-4a12-8d5c-2ae7c0eedb3f.png)
 
+9. Plotting Histogram
+```
+hist(cricket$Sixes, col=c("green", "red", "blue"), xlab="Number of Sixes", ylab= "Frequncy of Sixes", main="Histogram of Sixes")
+```
+![image](https://user-images.githubusercontent.com/92450677/203508360-b1e81092-8567-4deb-b0ac-a3cc35a9f1df.png)
+
+
+
+
 
 
