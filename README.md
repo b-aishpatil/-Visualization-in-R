@@ -25,35 +25,72 @@ cricket <- read.csv("C:/Users/User/Downloads/cs.csv")
 ```
 View(cricket)
 ```
-![image](https://user-images.githubusercontent.com/92450677/203500520-e40743c1-10a1-45aa-a400-4104644648fa.png)
+ ![image](https://user-images.githubusercontent.com/92450677/203500520-e40743c1-10a1-45aa-a400-4104644648fa.png)
 
 
-3.	To get first 7 rows
-```
+
+
+3.	To get data from head
+
+<table>
+
+<tr>
+<td align="center"> To get <b>first 7</b> rows</td> 
+<td align="center"> To get all rows <b>except last 7</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+```R
 head(cricket,7)
 ```
-![image](https://user-images.githubusercontent.com/92450677/203500442-ec6ec5fb-813b-476c-8584-5a8a2f836b13.png)
+</td>
+<td>
 
-
-4. To remove last 7 rows and print remaining data 
-```
+```R
 head(cricket,-7)
 ```
-![image](https://user-images.githubusercontent.com/92450677/203500385-04befdf5-2f80-4ba6-a5fd-c5d1a6a598e0.png)
+</td>
+</tr>
+<tr>
+<td align="center"> <p align="center"> <img src="https://user-images.githubusercontent.com/92450677/203500442-ec6ec5fb-813b-476c-8584-5a8a2f836b13.png"/> </td> 
+<td align="center"> <img src="https://user-images.githubusercontent.com/92450677/203500385-04befdf5-2f80-4ba6-a5fd-c5d1a6a598e0.png"/> </td>
+</tr>
+
+</table>
 
 
-5. To get last 7 rows
-```
+4. To get data from tail
+
+<table>
+
+<tr>
+<td align="center"> To get <b>last 7</b> rows</td> 
+<td align="center"> To get all rows <b>except last 7</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+```R
 tail(cricket,7)
 ```
-![image](https://user-images.githubusercontent.com/92450677/203500313-ce9efab7-de25-4cf5-8413-2ff80cce75b0.png)
+</td>
+<td>
 
-
-6. To remove first 7 rows and print remaining data 
-```
+```R
 tail(cricket,-7)
 ```
-![image](https://user-images.githubusercontent.com/92450677/203500058-88281f9f-6972-4a91-967e-234255bc9c14.png)
+</td>
+</tr>
+<tr>
+<td align="center"> <p align="center"> <img src="https://user-images.githubusercontent.com/92450677/203500313-ce9efab7-de25-4cf5-8413-2ff80cce75b0.png"/> </p></td> 
+<td align="center"> <img src="https://user-images.githubusercontent.com/92450677/203500058-88281f9f-6972-4a91-967e-234255bc9c14.png"/> </td>
+</tr>
+
+</table>
+
 
 7. To summaries dataset 
 ```
