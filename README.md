@@ -126,4 +126,9 @@ ggplot(data=cricket,aes(x=Hundreds,fill=Country))+geom_histogram(bins=50)
 ```
 ![image](https://user-images.githubusercontent.com/92450677/203518005-c5a2ccac-0d81-4030-8f7a-eb867d134936.png)
 
+11. Alternative of Histogram
+```R
+ggplot(data=cricket,aes(x=Hundreds))+geom_freqpoly()
+```
+![image](https://user-images.githubusercontent.com/92450677/203575317-6598f356-0d94-430d-9a54-a5166c8f06ed.png)
 
