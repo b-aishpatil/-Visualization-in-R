@@ -1,5 +1,8 @@
 # Visualization-in-R
 
+1. [R Studio Commands](#r-studio-commands)
+2. [Visualization Commands](#visualization-commands)
+
 ## R studio commands
 1. How to clear R studio console
 `CNTRL + L`
